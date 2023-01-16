@@ -1,0 +1,133 @@
+[
+    {
+        "id": "0",
+        "first-name": "user-1 firstName",
+        "last-name": "user-1 lastName",
+        "bio": "user-1 bio text goes here",
+        "has-profile-img": true,
+        "has-profile-cover": true,
+        "private-profiel": false,
+        "followers": [
+            {"UserId": "1"},
+            {"UserId": "2"},
+            {"UserId": "3"},
+            {"UserId": "4"},
+            {"UserId": "5"},
+            {"UserId": "6"},
+            {"UserId": "7"},
+            {"UserId": "8"}
+        ],
+        "followings": [
+            {"userId": "1"},
+            {"userId": "3"},
+            {"userId": "5"},
+            {"userId": "10"}
+        ],
+        "posts": [
+            {"postId": "1"},
+            {"postId": "2"},
+            {"postId": "3"},
+            {"postId": "4"},
+            {"postId": "5"},
+            {"postId": "6"},
+            {"postId": "7"}
+        ],
+        "groups": [
+            {"groupId": "1"},
+            {"groupId": "2"},
+            {"groupId": "3"}
+        ]
+    },
+
+    {
+        "id": "1",
+        "first-name": "user-2 firstName",
+        "last-name": "user-2 lastName",
+        "bio": "user-2 bio text goes here",
+        "has-profile-img": true,
+        "has-profile-cover": false,
+        "private-profiel": true,
+        "followers": [
+            {"UserId": "2"},
+            {"UserId": "3"},
+            {"UserId": "0"},
+            {"UserId": "5"}
+        ],
+        "followings": [
+            {"userId": "0"},
+            {"userId": "2"},
+            {"userId": "10"},
+            {"userId": "21"},
+            {"userId": "22"},
+            {"userId": "15"}
+        ],
+        "posts": [
+            {"postId": "8"},
+            {"postId": "9"},
+            {"postId": "10"}
+        ],
+        "groups": [
+            {"groupId": "1"},
+            {"groupId": "2"},
+            {"groupId": "3"},
+            {"groupId": "4"},
+            {"groupId": "10"},
+            {"groupId": "11"},
+            {"groupId": "23"}
+        ]
+    },
+
+    {
+        "id": "2",
+        "first-name": "user-3 firstName",
+        "last-name": "user-3 lastName",
+        "bio": "user-3 bio text goes here",
+        "has-profile-img": false,
+        "has-profile-cover": true,
+        "private-profiel": false,
+        "followers": [
+            {"UserId": "0"},
+            {"UserId": "3"},
+            {"UserId": "10"}
+        ],
+        "followings": [
+            {"userId": "1"},
+            {"userId": "20"},
+            {"userId": "11"}
+        ],
+        "posts": [
+            {"postId": "11"}
+        ],
+        "groups": [
+            {"groupId": "1"},
+            {"groupId": "2"}
+        ]
+    },
+
+    {
+        "id": "3",
+        "first-name": "user-3 firstName",
+        "last-name": "user-3 lastName",
+        "bio": "user-3 bio text goes here",
+        "has-profile-img": false,
+        "has-profile-cover": true,
+        "private-profiel": false,
+        "followers": [
+            {"UserId": "0"},
+            {"UserId": "3"},
+            {"UserId": "10"}
+        ],
+        "followings": [
+            {"userId": "1"},
+            {"userId": "20"},
+            {"userId": "11"}
+        ],
+        "posts": [
+            {"postId": "11"}
+        ],
+        "groups": [
+            {"groupId": "1"},
+            {"groupId": "2"}
+        ]
+    }
+]

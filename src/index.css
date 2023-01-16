@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Robot */
+/* @font-face {
+  font-family: RobotoLight;
+  src: url(/public/fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: RobotoRegular;
+  src: url(/public/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: RobotoMedium;
+  src: url(/public/fonts/Roboto/Roboto-Medium.ttf);
+} */
+
+.nav-box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.small-black-shadow {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, .06);
+}
+
+.black-box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .08);
+}
+
+
+
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 6px;
+}
+ 
+*::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, .07);
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .2);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  *::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  } 
+}
+
+
+.test {
+  @apply !border-b !border-red-400;
+}
